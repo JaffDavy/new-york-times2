@@ -1,11 +1,2148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>New York Times</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      /* Optional: Hide sprite from layout but keep it accessible */
+      svg[aria-hidden="true"] {
+        position: absolute;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- SVG Sprite Definitions -->
+    <svg aria-hidden="true">
+      <symbol id="icon-search" viewBox="0 0 24 24">
+        <path
+          d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5l-1.5 1.5l-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16A6.5 6.5 0 0 1 3 9.5A6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14S14 12 14 9.5S12 5 9.5 5Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-dropdown" viewBox="0 0 24 24">
+        <path
+          d="M9.176 10.376a.6.6 0 0 1 .848 0L12 12.352l1.976-1.976a.6.6 0 0 1 .848.848l-2.4 2.4a.6.6 0 0 1-.848 0l-2.4-2.4a.6.6 0 0 1 0-.848"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol id="icon-stock-down" viewBox="0 0 24 24">
+        <path
+          d="m9 16.172l-6.071-6.071l-1.414 1.414L10 20l.707-.707l7.778-7.778l-1.414-1.414L11 16.172V0H9z"
+          fill="currentColor"
+        />
+      </symbol>
+    </svg>
+
+    <header>
+      <div class="header-head">
+        <div>
+          <svg height="20" width="20"><use href="#icon-search"></use></svg>
+        </div>
+        <div>
+          <ul>
+            <li>U.S.</li>
+            <li>INTERNATIONAL</li>
+            <li>CANADA</li>
+            <li>ESPANOL</li>
+            <li>中文</li>
+          </ul>
+        </div>
+        <div>
+          Account
+          <svg height="20" width="20"><use href="#icon-dropdown"></use></svg>
+        </div>
+      </div>
+
+      <div class="header-middle">
+        <div>
+          <div>Monday, August 11, 2025</div>
+          <div>Today's Paper</div>
+        </div>
+        <div>
+          <h1>The New York Times</h1>
+        </div>
+        <div>
+          <div>Dow</div>
+          <div>
+            -0.04%
+            <svg height="20" width="20">
+              <use href="#icon-stock-down"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-footer">
+        <div>
+          <ul>
+            <li>
+              U.S.
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+            <li>
+              World
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+            <li>
+              Business
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+            <li>
+              Arts
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+            <li>
+              Livestyle
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+            <li>
+              Options
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              Audio
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+            <li>
+              Games
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+            <li>
+              Cooking
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+            <li>
+              Wiercutter
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+            <li>
+              The Athletic
+              <svg height="20" width="20">
+                <use href="#icon-dropdown"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="left-main">
+        <section>
+          <div>
+            <div>
+              <div>
+                <h2>
+                  In Unusual Move, U.S. Government to Take Cut of Companies’
+                  Chips Sold to China
+                </h2>
+                <p>
+                  The unorthodox agreement for Nvidia and AMD to pay the U.S. 15
+                  percent would essentially make the federal government a
+                  partner in their business in China.
+                </p>
+                <quote>5 MIN READ</quote>
+              </div>
+              <div>
+                <div><h6>DealBook</h6></div>
+                <div><h2>Is the Chip Deal a Tax, or a Payoff?</h2></div>
+              </div>
+              <quote> 7 min read </quote>
+            </div>
+            <div>
+              <img
+                src="https://static01.nyt.com/images/2025/08/10/multimedia/10biz-nvidia-ltbf/10biz-nvidia-ltbf-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt="picture of a man"
+              />
+            </div>
+          </div>
+          <div>
+            <div>
+              <h2>
+                China’s Automakers Are Taking a Shortcut to European Markets
+              </h2>
+              <quote>4 min read </quote>
+            </div>
+            <div>
+              <h2>
+                Small Businesses Brace for the Punishing Side Effects of Trump’s
+                Tariffs
+              </h2>
+              <quote>4 min read </quote>
+            </div>
+          </div>
+        </section>
+        <continer>
+          <div>
+            <img
+              src="https://static01.nyt.com/images/2025/08/11/multimedia/11headlines-hgkp/11headlines-hgkp-square640.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+          </div>
+          <div>
+            <div>
+              <h6>THE HEADLINES</h6>
+              <quote>AUDIIO</quote>
+            </div>
+            <div>
+              <h2>
+                Trump Prepares To Meet Putin,Al Jazzera Says Israel Killed Its
+                Journalist In Gaza, An More
+              </h2>
+              <svg
+                height="20"
+                width="20"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.396 18.433L17 12l-6.604-6.433A2 2 0 0 0 7 7v10a2 2 0 0 0 3.396 1.433z"
+                  fill="currentColor"
+                />
+              </svg>
+              <quote> 9 MIN LISTERN</quote>
+            </div>
+          </div>
+        </continer>
+        <section class="section2">
+          <div class="section2-head">
+            <ul>
+              <li>Trump Administration</li>
+              <li><a href=""> Florida’s ‘Alligator Alcatraz’</a></li>
+              <li>Separating Families</li>
+              <li>Major Shift at E.P.A.</li>
+              <li>Approval Ratings</li>
+            </ul>
+          </div>
+          <div class="section2-body">
+            <div>
+              <div>
+                <div>
+                  <span> LIVE </span>
+                  <span2> Aug. 11 </span2>
+                </div>
+                <div>
+                  <h2>Trump to Deploy National Guard in Washington, D.C.</h2>
+                  <p>
+                    The U.S. military is preparing to activate National Guard
+                    troops in the capital as part of President Trump’s campaign
+                    against crime there, an official said.
+                  </p>
+                  <quote>
+                    See more updates
+                    <svg
+                      height="20"
+                      width="20"
+                      viewBox="0 0 208 456"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9 388q8 4 15 4q11 0 17-6l162-186L41 14Q26-1 11 12Q-4 29 9 42l137 156L9 354q-13 19 0 34z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </quote>
+                </div>
+                <div>
+                  <h2>
+                    Trump Administration to Put F.B.I. Agents on Night Patrol in
+                    Washington
+                  </h2>
+                  <quote>2 MIN READ</quote>
+                </div>
+                <div>
+                  Trump Administration to Put F.B.I. Agents on Night Patrol in
+                  Washington
+                  <h2>
+                    The Harvard-Trained Lawyer Behind Trump’s Fight Against Top
+                    Universities
+                  </h2>
+                  <quote>7 MIN READ</quote>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <img
+                    src="https://static01.nyt.com/images/2025/08/11/multimedia/11dc-mahafarm-FADER-klmb/11dc-mahafarm-FADER-klmb-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                    alt="farm work"
+                  />
+                </div>
+                <div>
+                  <h2>
+                    This Ohio Farm Community Is a Mecca for the ‘MAHA Mom’
+                  </h2>
+                  <p>
+                    In a neighborhood that appeals to people from both the right
+                    and the left, residents strive for a finely tuned state of
+                    political harmony.
+                  </p>
+                  <quote> 12 min read </quote>
+                </div>
+              </div>
+            </div>
+            <div class="section2-footer">
+              <div>
+                <h2>Kennedy’s Next Target: the Federal Vaccine Court</h2>
+                <quote>6 min read</quote>
+              </div>
+              <div>
+                <h2>
+                  Undocumented Immigrants Fear Seeking Aid After Texas Floods
+                </h2>
+                <quote> 5 min read </quote>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section3">
+          <div>
+            <div>
+              <h5>ANALYSIS</h5>
+              <h2>
+                A Sidelined Zelensky Warns That Russia Will Try to Deceive the
+                U.S.
+              </h2>
+              <p>
+                Volodymyr Zelensky fears that the Kremlin will try to convince
+                President Trump at the U.S.-Russia talks that Ukraine, not
+                Russia, is the obstacle to peace.
+              </p>
+              <quote>4 MIN READ</quote>
+            </div>
+            <div>
+              <h2>
+                Vance Says U.S. Is Working for a Meeting With Trump, Putin and
+                Zelensky
+              </h2>
+              <quote> 3 min read</quote>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://static01.nyt.com/images/2025/08/11/multimedia/11int-ukraine-diplo-01-pwbl/11int-ukraine-diplo-01-pwbl-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <quote>Odd Anderson/Agence France-Presse-Getty Images</quote>
+          </div>
+        </section>
+        <section class="section4">
+          <div class="section2-head">
+            <ul>
+              <li>Middle East Crisis</li>
+              <li><a href="">Food Crisis</a></li>
+              <li>Sendind Aid To Gaza</li>
+              <li>A Weakened Hezbollah</li>
+              <li>New Hostage Videos</li>
+            </ul>
+          </div>
+          <div>
+            <div>
+              <div>
+                <h5>ANALYSIS</h5>
+                <h2>
+                  Days After Pledging a New Attack in Gaza, Israel’s Plan Is
+                  Still Unclear
+                </h2>
+                <p>
+                  The Israeli government said last week that it wanted to
+                  capture Gaza City, but how and when it will proceed has yet to
+                  be decided.
+                </p>
+                <quote>2 MIN READ</quote>
+              </div>
+              <div>
+                <h2>
+                  Israeli Strike Kills 4 Al Jazeera Journalists, Network Says
+                </h2>
+                <p>
+                  Anas al-Sharif, a well-known correspondent, was among those
+                  killed. Israel said it targeted Mr. al-Sharif, claiming he
+                  worked for Hamas, which he had denied.
+                </p>
+                <quote> 4 min read</quote>
+              </div>
+              <div>
+                <h2>
+                  Australia Joins Growing Effort to Recognize Palestinian
+                  Statehood
+                </h2>
+                <quote> 2 min read</quote>
+              </div>
+            </div>
+            <div class="video-container" id="video-1">
+              <video width="200" height="200" controls>
+                <source src="https://nyti.ms/3Ja2OtC" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <quote>Shawn Paik</quote>
+            </div>
+          </div>
+        </section>
+        <container>
+          <h2>
+            Got a Tip? The Times offers several ways to send important
+            information confidentially ›
+          </h2>
+        </container>
+        <section class="section5">
+          <div>
+            <h1>
+              For Lupita and Junior Nyong’o, ‘Twelfth Night’ Is Child’s Play,
+              Revisited
+            </h1>
+            <p>
+              The siblings “really enjoyed make-believe” as kids. Now they are
+              performing Shakespeare under the stars at the Delacorte Theater in
+              Central Park.
+            </p>
+            <quote>6 min read </quote>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/17/multimedia/17cul-delacorte-lupita-PROMO/17cul-delacorte-lupita-PROMO-threeByTwoSmallAt2X-v2.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+              <figcaption>Amir Hamja for The New York Times</figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="section5">
+          <div>
+            <h2>
+              Clashing Visions of Syria’s Future Play Out in Ancient Alleys of
+              Damascus
+            </h2>
+            <p>
+              Many in the capital worry that the secular freedoms they enjoyed
+              under the Assad regime are under threat from the new Islamist
+              government.
+            </p>
+            <quote>6 MIN READ</quote>
+          </div>
+          <div>
+            <div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2025/07/20/multimedia/20syria-conservatism-hp-grid/20syria-conservatism-05-qtkz-square640.jpg?quality=75&auto=webp"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+              <div>
+                <div>
+                  <div>
+                    <figure>
+                      <img
+                        src="https://static01.nyt.com/images/2025/07/20/multimedia/20syria-conservatism-06-qtkz-promo/20syria-conservatism-06-qtkz-promo-square640-v2.jpg?quality=75&auto=webp"
+                        alt=""
+                      />
+                      <figcaption></figcaption>
+                    </figure>
+                  </div>
+                  <div>
+                    <figure>
+                      <img
+                        src="https://static01.nyt.com/images/2025/07/20/multimedia/20syria-conservatism-08-qtkz-promo/20syria-conservatism-08-qtkz-promo-square640-v2.jpg?quality=75&auto=webp"
+                        alt=""
+                      />
+                      <figcaption>
+                        Nanna Heitmann for The New York Times
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section6">
+          <div class="section2-head">
+            <ul>
+              <li>Artificial Intelligence</li>
+              <li><a href="">Microsoft and A.I. Education</a></li>
+              <li>Job Interviews</li>
+              <li>China’s Frenzy</li>
+              <li>Tech Giant Spending Spree</li>
+            </ul>
+          </div>
+          <div>
+            <div>
+              <div>
+                <h2>21 Ways People Are Using A.I. at Work</h2>
+                <p>
+                  Yes, it still makes plenty of mistakes, but it has become part
+                  of the job for many.
+                </p>
+              </div>
+              <div>
+                <h2>
+                  Why A.I. Should Make Parents Rethink Posting Photos of Their
+                  Children Online 7 min read
+                </h2>
+                <quote>7 MIN READ</quote>
+              </div>
+            </div>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2025/07/31/business/00techfix/00techfix-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption>Sisi Yu</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+        <section class="section7">
+          <div>
+            <div>
+              <h2>Blown Away by Bubble Art</h2>
+              <p>
+                Performers are delighting crowds at the Edinburgh Festival
+                Fringe, using a mixture of dish soap, water and lube — and
+                occasional acrobatics.
+              </p>
+              <quote>4 MIN READ</quote>
+            </div>
+            <div>
+              <h2>
+                Wildfire at Edinburgh Landmark, Arthur’s Seat, Brought Under
+                Control
+              </h2>
+              <quote>2 MIN READ</quote>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2025/08/11/arts/11cul-edinburgh-bubbles-promo/11cul-edinburgh-bubbles-promo-square640-v2.jpg?quality=75&auto=webp"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+              <div>
+                <div class="video-container" id="video-2">
+                  <video
+                    width="200"
+                    height="200"
+                    controls
+                    poster="thumbnail.jpg"
+                  >
+                    <source src="https://nyti.ms/3Ja2OtC" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <quote>Robert Ormerod for The New York Times</quote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section8">
+          <div>
+            <h2>
+              I Never Understood Our Data-Saturated Life Until a Hurricane Shut
+              It Down
+            </h2>
+            <p>
+              When Helene disconnected a part of North Carolina for weeks, a
+              writer had to relearn old ways of knowing what was happening — and
+              what wasn’t.
+            </p>
+            <quote>23 min read</quote>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/17/magazine/17-mag-helene-promo2/17-mag-helene-promo2-threeByTwoSmallAt2X.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+              <figcaption>
+                Photo illustration by The New York Times. Source photograph by
+                Erin Brethauer.
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+      <div class="right-main">
+        <div class="section1">
+          <div>
+            <figure>
+              <img
+                src="https://www.nytimes.com/interactive/2025/08/07/travel/things-to-do-kefalonia.html"
+                alt=""
+              />
+              <figcaption>Gabby Riggieri</figcaption>
+            </figure>
+          </div>
+          <div>
+            <h2>36 Hours on Kefalonia, Greece</h2>
+            <p>
+              Kayak to romantic coves and explore an aquamarine underground lake
+              on this Ionian island.
+            </p>
+          </div>
+        </div>
+        <section class="section2">
+          <div>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2025/07/15/well/WELL-HEALTHY-ZUCCHINI1/WELL-HEALTHY-ZUCCHINI1-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption></figcaption>
+              </figure>
+              <h2>How Healthy Is Zucchini?</h2>
+              <quote>4 min read</quote>
+            </div>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2025/07/16/well/2Well-Running-Myths/2Well-Running-Myths-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption></figcaption>
+              </figure>
+              <h2>6 Running Myths That Could Be Slowing You Down</h2>
+              <quote>4 min read</quote>
+            </div>
+          </div>
+          <div>
+            <div>
+              <svg
+                height="20"
+                width="20"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.222 9.897c2.3-2.307 4.548-4.559 6.744-6.754a.65.65 0 0 0 0-.896c-.311-.346-.803-.316-1.027-.08c-2.276 2.282-4.657 4.667-7.143 7.156c-.197.162-.296.354-.296.574c0 .221.099.418.296.592l7.483 7.306a.749.749 0 0 0 1.044-.029c.358-.359.22-.713.058-.881a3407.721 3407.721 0 0 1-7.16-6.988Z"
+                  fill="currentColor"
+                  fillrule="evenodd"
+                />
+              </svg>
+            </div>
+            <div>
+              <svg
+                height="20"
+                width="20"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m7.053 2.158l7.243 7.256a.66.66 0 0 1 .204.483a.705.705 0 0 1-.204.497c-2.62 2.556-5.145 5.023-7.575 7.401c-.125.117-.625.408-1.011-.024c-.386-.433-.152-.81 0-.966l7.068-6.908l-6.747-6.759c-.246-.339-.226-.652.06-.939c.286-.287.607-.3.962-.04Z"
+                  fill="currentColor"
+                  fillrule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </section>
+        <section class="section3">
+          <div>
+            <h6>Option</h6>
+            <quote>BEN RHODES</quote>
+            <h2>We’re Trapped in Trump’s Reality. This Is How We Escape It.</h2>
+            <quote>7 min read</quote>
+            <figure>
+              <img
+                src="https://www.nytimes.com/2025/08/11/opinion/america-short-term-thinking.html"
+                alt=""
+              />
+              <figcaption>Lauren Peters-Collaer</figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="section4">
+          <div>
+            <quote>ZEYNNEP TUFEKCI</quote>
+            <h2>
+              The A.O.C. Deepfake Was Terrible and the Proposed Solution Is
+              Delusional
+            </h2>
+            <quote>6 min read</quote>
+          </div>
+        </section>
+        <section class="section5">
+          <div>
+            <quote>Frank Bruni</quote>
+            <h2>Sydney Sweeney Has a Secret</h2>
+            <quote>9 min read</quote>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/11/opinion/11bruni-newsletter-image/11bruni-newsletter-image-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="section6">
+          <div>
+            <quote>Céline Gounder</quote>
+            <h2>Vaccine Misinformation Is a Symptom of a Deeper Breakdown</h2>
+            <quote>4 min read</quote>
+          </div>
+        </section>
+        <section class="section7">
+          <div>
+            <quote>Jonathan Mahler</quote>
+            <h2>The Mamdani Moment Is About More Than You Realize</h2>
+            <quote>6 min read</quote>
+          </div>
+          <div>
+            <quote>George E. Bogden</quote>
+            <h2>
+              Trump Closed a Small Trade Loophole That Caused Big Problems
+            </h2>
+            <quote>4 min read</quote>
+          </div>
+          <div>
+            <quote>Omar G. Encarnación</quote>
+            <h2>Spain Is an Example to the World</h2>
+            <quote>5 min read</quote>
+          </div>
+          <div>
+            <quote>Molly Jong-Fast</quote>
+            <h2>America’s Real-Life ‘Gilded Age’ Finale</h2>
+            <quote>5 min read</quote>
+          </div>
+        </section>
+        <section class="section8">
+          <div>
+            <h6>THE MORNING</h6>
+            <h2>North Korea’s Next Leader?</h2>
+            <p>
+              Kim Jong-un’s daughter, Kim Ju-ae, is perhaps being primed to take
+              control of the regime one day.
+            </p>
+            <quote>5 MIN READ</quote>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2022/03/15/multimedia/the-morning-icon/the-morning-icon-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="section9">
+          <div>
+            <h6>Most Commented</h6>
+            <h2>
+              Delta Deserted Us After an Emergency Landing in the Azores. Help!
+            </h2>
+            <quote>7 MIN READ</quote>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/11/travel/07trippedup-delta-illo/07trippedup-delta-illo-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="section10">
+          <div>
+            <h2>Seth Rogen’s 5 Favorite Places in Los Angeles</h2>
+            <quote>4 MIN READ</quote>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/06/travel/06trav-5places-rogen-combo/06trav-5places-rogen-combo-smallSquare252-v3.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="section11">
+          <div>
+            <h2>Do I Tell My Brother That He’s Not Our Dad’s Son?</h2>
+            <quote>6 MIN READ</quote>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/17/magazine/17mag-ethicist/17mag-ethicist-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="section12">
+          <div>
+            <h6>Opinion</h6>
+            <h2>
+              ‘Profound and Abiding Rage’: Canada’s Answer to America’s
+              Abandonment
+            </h2>
+            <quote>7 MIN READ</quote>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/10/opinion/10marche-alt/10marche-alt-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+            </figure>
+          </div>
+        </section>
+        <section class="section13">
+          <div>
+            <h2>Car Companies Are Paying Tariffs So You Don’t Have To</h2>
+            <quote>5 MIN READ</quote>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/07/multimedia/00biz-auto-trade-01-cbvp/00biz-auto-trade-01-cbvp-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+            </figure>
+          </div>
+        </section>
+      </div>
+    </main>
+    <main2>
+      <section class="section1">
+        <div class="left-side">
+          <div>
+            <div>
+              <h5>MORE NEWS</h5>
+              <div>
+                <h2>
+                  Miguel Uribe, Colombian Senator Shot at Campaign Event, Dies
+                  at 39
+                </h2>
+                <p>
+                  Mr. Uribe, a presidential hopeful, was shot in June at a
+                  campaign rally in Bogotá in an attack that shocked the nation.
+                </p>
+                <quote>2 min read </quote>
+              </div>
+              <div>
+                <h2>
+                  Children in State Care Were Sexually Abused. How Much Money
+                  Are They Owed?
+                </h2>
+                <p>
+                  New Hampshire is backing away from a promise to pay victims
+                  millions of dollars. Other states are also rethinking payouts
+                  to those harmed under their care.
+                </p>
+                <quote>5 min read </quote>
+              </div>
+            </div>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2025/06/17/multimedia/00-int-colombia-politician-dead-wlkm/00-int-colombia-politician-dead-wlkm-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption>
+                  Raul Arboleda/Agence France-Presse — Getty Images
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h2>
+                Western Turkey Is Hit by Earthquake but Avoids Major Damage
+              </h2>
+              <p>
+                Rescue efforts were continuing after the 6.1-magnitude temblor
+                struck in a region that is crisscrossed by fault lines.
+              </p>
+              <quote>1 min read </quote>
+            </div>
+            <div>
+              <h2>
+                AOL Will End Its Dial-Up Internet Service (Yes, It’s Still
+                Operating)
+              </h2>
+              <p>
+                The company said the service, synonymous with the early days of
+                the internet, will be discontinued on Sept. 30.
+              </p>
+              <quote>2 min read </quote>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div>
+            <h1>
+              His Party Reeling, a Democratic Senator Tries a Message of Hope in
+              Iowa
+            </h1>
+            <quote>6 MIN READ</quote>
+          </div>
+          <div>
+            <h1>What We Know About the C.D.C. Shooting in Atlanta</h1>
+            <quote>4 MIN READ</quote>
+          </div>
+          <div>
+            <h1>
+              Hezly Rivera Wins Women’s All-Around at the U.S. Gymnastics
+              Championships
+            </h1>
+            <quote>From The Athletic</quote>
+          </div>
+          <div>
+            <h1>New York City to Close Last Major Hotel Housing Migrants</h1>
+            <quote>4 MIN READ</quote>
+          </div>
+          <div>
+            <h1>
+              ‘Weapons’ Gives Warner Bros. Another Outstanding No. 1 Opening
+            </h1>
+            <quote>3 MIN READ</quote>
+          </div>
+          <div>
+            <h1>
+              Mamdani Tries to Build Bridges to Black Voters Who Snubbed Him in
+              June
+            </h1>
+            <quote>6 MIN READ</quote>
+          </div>
+        </div>
+      </section>
+      <section class="section2">
+        <div>
+          <div>
+            <h1>The Athletic <yo>sports coverage</yo></h1>
+            <div>
+              <h1>N.F.L. Insiders Rank the 34 Best Veteran Quarterbacks</h1>
+              <p>
+                Coaches and executives added two more players into the top tier
+                of signal callers.
+              </p>
+            </div>
+            <div>
+              <h1>
+                Jen Pawol Became the First Female Umpire in M.L.B. The League
+                Needed It.
+              </h1>
+              <p>
+                A sport that boasts itself as the national pastime, one that is
+                so rich in history, can sometimes be suffocated by it, a
+                columnist for The Athletic writes.
+              </p>
+            </div>
+            <div>
+              <h1>
+                Which M.L.B. Contenders Have the Toughest Road to the Playoffs?
+              </h1>
+              <p>There are some mighty matchups ahead in August.</p>
+            </div>
+          </div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/10/multimedia/tamc-081125-sando-qb-tiers/tamc-081125-sando-qb-tiers-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+              <figcaption>Kevin Sabitus/Getty Images</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2>
+              Kansas City Was Once at Rock Bottom. One Blueprint Changed
+              Everything.
+            </h2>
+          </div>
+          <div>
+            <h2>
+              Texas Tech Was a ‘Bad’ Softball Program. One Coach Turned It Into
+              a Powerhouse.
+            </h2>
+          </div>
+          <div>
+            <h2>
+              The Stiffest Competition in the W.N.B.A.? Half-Court Shot Contests
+            </h2>
+          </div>
+          <div>
+            <h2>Play Connections: Sports Edition</h2>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2025/03/25/multimedia/tamc-032525-connections-sports-edition-hp-img/tamc-032525-connections-sports-edition-hp-img-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section3">
+        <h5>Well</h5>
+        <div>
+          <div>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2024/07/26/well/26WELL-NL-YELLOWFLAGS/26WELL-NL-YELLOWFLAGS-square640.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption>
+                  Illustration by Nicolás Ortega; Photograph by Getty Images
+                </figcaption>
+              </figure>
+            </div>
+            <div>
+              <h2>Slow Down if You See These Dating ‘Yellow Flags’</h2>
+              <quote>4 min read </quote>
+            </div>
+          </div>
+          <div>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2024/04/17/well/WELL-NL-GASTRO-TIPS/WELL-NL-GASTRO-TIPS-square640.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption>
+                  Illustration by Nicolás Ortega; Photograph by Getty Images
+                </figcaption>
+              </figure>
+            </div>
+            <div>
+              <h2>5 Gut Facts Experts Want You to Know</h2>
+              <quote>4 min read </quote>
+            </div>
+          </div>
+          <div>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2024/08/13/well/05WELL-ORGASM-GAP/05WELL-ORGASM-GAP-square640.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption>Sara Andreasson</figcaption>
+              </figure>
+            </div>
+            <div>
+              <h2>The ‘Orgasm Gap’ Isn’t Going Away for Straight Women</h2>
+              <quote>4 min read </quote>
+            </div>
+          </div>
+          <div>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2024/09/19/multimedia/BREASTREDUCTION8-hmqb/BREASTREDUCTION8-hmqb-square640-v2.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption>Maggie Shannon for The New York Times</figcaption>
+              </figure>
+            </div>
+            <div>
+              <h2>Why Are Breast Reductions Booming?</h2>
+              <quote>12 min read </quote>
+            </div>
+          </div>
+          <div>
+            <div>
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2024/09/18/well/18WELL-FOOD-INFLAMMATION-hp/18WELL-FOOD-INFLAMMATION-lede-square640-v13.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                  alt=""
+                />
+                <figcaption>Illustration by Sarah Mafféïs</figcaption>
+              </figure>
+            </div>
+            <div>
+              <h2>Foods That Fight Inflammation</h2>
+              <quote>4 min read </quote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section4">
+        <h4>culture and lifestyle</h4>
+        <div>
+          <div>
+            <div>
+              <div>
+                <h2>T Magazine’s Favorite Bedrooms</h2>
+                <p>
+                  From an airy sanctuary in Bali to a maximalist experiment in
+                  Belgium, a roundup of inspiring resting spots.
+                </p>
+                <quote>4 min read </quote>
+              </div>
+            </div>
+            <div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2023/08/11/t-magazine/11tmag-ingegerd-slide-THCR-copy-copy/11tmag-ingegerd-slide-THCR-copy-copy-square640-v2.jpg?quality=75&auto=webp"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2023/09/21/t-magazine/21tmag-harlem-slide-5TOC-copy-copy/21tmag-harlem-slide-5TOC-copy-copy-square640-v2.jpg?quality=75&auto=webp"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2024/09/23/t-magazine/23tmag-kitsune-slide-YN52-copy-copy/23tmag-kitsune-slide-YN52-copy-copy-square640-v2.jpg?quality=75&auto=webp"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2022/03/21/t-magazine/21tmag-anaisnin-slide-PTM7-copy-copy/21tmag-anaisnin-slide-PTM7-square640.jpg?quality=75&auto=webp"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                <h5>Movie Review</h5>
+                <h2>The Dreyfus Affair as an Allegory</h2>
+                <p>
+                  Roman Polanski’s ”An Officer and a Spy” is screening in New
+                  York.
+                </p>
+                <quote>4 min read </quote>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2025/08/08/multimedia/07cul-officerspy-review-lbhm/07cul-officerspy-review-lbhm-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h2>Why Buyers Are Spending Millions on Colored Diamonds</h2>
+                <p>
+                  Is the global turmoil driving sales of portable assets? Or is
+                  it just a love of rare jewels?
+                </p>
+                <quote>5 min read </quote>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2025/07/07/multimedia/07sp-jewelry-color-inyt-01-tlfp/07sp-jewelry-color-inyt-01-tlfp-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h5>Video Game Review</h5>
+                <h2>Luxuriate in Sicily With a Threatening Mafia Family</h2>
+                <p>
+                  Mafia: The Old Country rewards players for sightseeing when
+                  they’re not stabbing enemies.
+                </p>
+                <quote>4 min read </quote>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2025/08/09/multimedia/07cul-mafia-review-jcvz/07cul-mafia-review-jcvz-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section5">
+        <div>
+          <h5>Audio</h5>
+          <p>Podcasts and narrated articles</p>
+        </div>
+        <div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/12/multimedia/12Trump-news-national-guard-headlines-mftk/12Trump-news-national-guard-headlines-mftk-smallSquare252-v2.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+          <div>
+            <h6>THE DAILY audio</h6>
+            <h4>Trump Sends the National Guard Into Washington, D.C.</h4>
+            <div>
+              <div>
+                <svg
+                  height="20"
+                  width="20"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="32" cy="32" fill="#4fd1d9" r="30" />
+                  <path d="m25 12l20 20l-20 20z" fill="#fff" />
+                </svg>
+              </div>
+              <div>27 MIN LISTERN</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/08/podcasts/08hardfork-gpt5-illustration/08hardfork-gpt5-illustration-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+          <div>
+            <h6>Hard Fork audio</h6>
+            <h4>GPT-5 Arrives, and We Try the New Alexa+</h4>
+            <div>
+              <div>
+                <svg
+                  height="20"
+                  width="20"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="32" cy="32" fill="#4fd1d9" r="30" />
+                  <path d="m25 12l20 20l-20 20z" fill="#fff" />
+                </svg>
+              </div>
+              <div>73 MIN LISTERN</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/05/multimedia/05FD-tesla-diner5-tpmc/05FD-tesla-diner5-tpmc-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+          <div>
+            <h6>Reporter Reads audio</h6>
+            <h4>At the Tesla Diner, the Future Looks Mid</h4>
+            <div>
+              <div>
+                <svg
+                  height="20"
+                  width="20"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="32" cy="32" fill="#4fd1d9" r="30" />
+                  <path d="m25 12l20 20l-20 20z" fill="#fff" />
+                </svg>
+              </div>
+              <div>8 MIN LISTERN</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/10/multimedia/ST-DR-PHIL-01-wbkz/ST-DR-PHIL-01-wbkz-smallSquare252-v2.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                alt=""
+              />
+              <figcaption></figcaption>
+            </figure>
+          </div>
+          <div>
+            <h6>Reporter Reads audio</h6>
+            <h4>Dr. Phil’s Road From Oprah to ICE Raids</h4>
+            <div>
+              <div>
+                <svg
+                  height="20"
+                  width="20"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="32" cy="32" fill="#4fd1d9" r="30" />
+                  <path d="m25 12l20 20l-20 20z" fill="#fff" />
+                </svg>
+              </div>
+              <div>21 MIN LISTERN</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section6">
+        <div>
+          <h4>Games</h4>
+          <p>Daily Puzzels</p>
+        </div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <h3>Wordle</h3>
+                <p>Guess the 5-letter word with 6 chances.</p>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src="https://static01.nyt.com/images/2022/03/02/crosswords/alpha-wordle-icon-new/alpha-wordle-icon-new-smallSquare252-v3.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                    alt=""
+                  />
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div>
+                  <h3>Connections</h3>
+                  <p>Group words that share a common thread.</p>
+                </div>
+                <div>
+                  <figure>
+                    <img
+                      src="https://static01.nyt.com/images/2023/08/25/crosswords/alpha-connections-icon-original/alpha-connections-icon-original-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                      alt=""
+                    />
+                    <figcaption></figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <h3>Strands</h3>
+                    <p>Uncover hidden words and reveal the theme.</p>
+                  </div>
+                  <div>
+                    <figure>
+                      <img
+                        src="https://static01.nyt.com/images/2024/01/16/crosswords/alpha-strands-icon/alpha-strands-icon-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        alt=""
+                      />
+                      <figcaption></figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <h3>Spelling Bee</h3>
+                  <p>How many words can you make with 7 letters?</p>
+                </div>
+                <div>
+                  <figure>
+                    <img
+                      src="https://static01.nyt.com/images/2020/03/23/crosswords/spelling-bee-logo-nytgames-hi-res/spelling-bee-logo-nytgames-hi-res-smallSquare252-v4.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                      alt=""
+                    />
+                    <figcaption></figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div>
+                    <h3>The Crossword</h3>
+                    <p>Get clued in with wordplay, every day.</p>
+                  </div>
+                  <div>
+                    <figure>
+                      <img
+                        src="https://static01.nyt.com/images/2020/03/23/crosswords/crossword-logo-nytgames-hires/crossword-logo-nytgames-hires-smallSquare252-v3.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                        alt=""
+                      />
+                      <figcaption></figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div>
+                    <div>
+                      <h3>Strands</h3>
+                      <p>Solve this bite-sized puzzle in just a few minutes.</p>
+                    </div>
+                    <div>
+                      <figure>
+                        <img
+                          src="https://static01.nyt.com/images/2021/03/23/multimedia/alpha-mini-promo-1616527576800/alpha-mini-promo-1616527576800-smallSquare252-v4.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+                          alt=""
+                        />
+                        <figcaption></figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section7">
+        <div>
+          <h3>NEWS</h3>
+        </div>
+        <div>
+          <h4>World News</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2021/08/17/t-magazine/17tmag-colinking-slide-EAF6-copy/17tmag-colinking-slide-EAF6-superJumbo.jpg?quality=75&auto=webp"
+              alt=""
+            />
+            <figcaption>
+              Strike That Killed 5 Journalists Was Aimed at One of Them, Israel
+              Says Al Jazeera staff members gathering at the network’s studios
+              in Doha, Qatar, on Monday, to remember their colleagues killed in
+              Gaza. What to Know About Al Jazeera, the Broadcaster Targeted by
+              Israel Foreign Recruits in Ukraine Are Killed in a Strike on a
+              Training Camp
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>U.S. News</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/12/multimedia/12dc-memo-top-jmwt/12dc-memo-top-jmwt-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              The D.N.C.’s New Leader Seeks to Curb Dark Money Influence in 2028
+              Primaries Ken Martin’s proposal notably does not attempt to
+              address the role of super PACs or direct-but-limited contributions
+              from corporations. For Trump, Cities Like Washington Are Real
+              Estate in Need of Fixing Up How College Financial Troubles Could
+              Reshape the Student Experience
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>U.S. Politics</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/12/the-athletic/tamc-081225-stalking-sports-mainbar-1754981690440/tamc-081225-stalking-sports-mainbar-1754981690440-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Russia Makes a Swift Battlefield Advance, Seeking an Edge in Trump
+              Talks A Ukrainian soldier firing a howitzer toward Russians in the
+              Donetsk region of Ukraine last week. The D.N.C.’s New Leader Seeks
+              to Curb Dark Money Influence in 2028 Primaries For Trump, Cities
+              Like Washington Are Real Estate in Need of Fixing Up
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>New York</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/01/business/00uber/00uber-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              They Cleaned Subways During Covid. Now They’ll Get Millions in
+              Back Pay. Susana Baez, who cleaned subway cars during the
+              coronavirus pandemic, is among the workers who will benefit from
+              the settlement. Zohran Mamdani’s Inner Circle What to Know About
+              How Bail Works in the U.S.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Business</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Trump’s Fed nominee has argued that tariffs haven’t raised prices.
+              Before he became President Trump’s top economic adviser, Stephen
+              Miran hit out at the Federal Reserve for what he described as
+              “groupthink” on monetary policy. Gaming Out the Price of a Trump
+              Trade Deal With China Car companies are paying the tariffs. For
+              now.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Technology</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Why A.I. Should Make Parents Rethink Posting Photos of Their
+              Children Online U.S. Government to Take Cut of Nvidia and AMD A.I.
+              Chip Sales to China Goodbye, $165,000 Tech Jobs. Student Coders
+              Seek Work at Chipotle.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Science</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              To Study Viking Seafarers, He Took 26 Voyages in Traditional Boats
+              During three years of expeditions, Greer Jarrett and his crews
+              encountered turbulent currents, a surfacing submarine and an
+              amorous minke whale, among other perils. Bonds Beats the Babe!
+              Statistical Model Crowns a New ‘Greatest’ in Baseball How to Watch
+              the Strongest Meteor Shower of the Summer
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Obituaries</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Sheila Jordan, Fearless Vocal Improviser, Is Dead at 96 Named a
+              National Endowment for the Arts Jazz Master in 2012 at the age of
+              84, Sheila Jordan continued to expand her global fan base right up
+              to her death. Christophe de Menil, Art Patron and Designer, Is
+              Dead at 92 Lloyd Williams, Who Helped Spur Harlem’s Revival, Dies
+              at 80
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>The Upshot</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              21 Ways People Are Using A.I. at Work Flashback: Your Weekly
+              History Quiz, Aug. 9, 2025 Trump’s Deals With Top Colleges May
+              Give Rich Applicants a Bigger Edge
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Climate and Environment</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Trump Cracks Down on Bird Deaths, but Only From Wind Turbines In
+              contradiction, Trump has sought to weaken laws that have been
+              credited with bringing the bald eagle back from the brink of
+              extinction. The ‘Alligator Alcatraz’ Site Once Changed History.
+              Now, It’s Testing the Law Again. Civil Cases Against Major
+              Polluters Plummet Under Trump
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Education</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Trump Wants Admissions Data on Grades and Race, but Who Will
+              Collect It? The Trump administration fired all seven of the staff
+              members who had worked on the college data set at the Department
+              of Education. Trump Officials Press Case Against Harvard, and Add
+              a New Investigation Trump Wants U.C.L.A. to Pay $1 Billion to
+              Restore Its Research Funding
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Health</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Why Young Children May Not Get Covid Shots This Fall A
+              seven-month-old receiving a Covid vaccine formulated for
+              under-5-year-olds in Houston in 2022. Kennedy’s Next Target: the
+              Federal Vaccine Court After Years of Anger Directed at C.D.C.,
+              Shooting Manifests Worst Fears
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Reader Center</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              How We Chose the Best Movies of the 21st Century A Podcast for the
+              Questions Rarely Asked Forget Bingo. These 90-Year-Olds Just Want
+              to Dance.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Explore Times Events</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Join ‘The Interview’ at the Tribeca Festival Join NYT Cooking for
+              an ‘Easy Weeknight Dinners’ Book Talk in N.Y.C. Join Us to Hear
+              About the Loopholes of Hawaii’s Pay-to-Play Law
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="section8">
+        <div>
+          <h3>Opinion</h3>
+        </div>
+        <div>
+          <h4>Opinion</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2021/08/17/t-magazine/17tmag-colinking-slide-EAF6-copy/17tmag-colinking-slide-EAF6-superJumbo.jpg?quality=75&auto=webp"
+              alt=""
+            />
+            <figcaption>
+              How Liberalism Went to Die on the Texas-Arkansas Border Geometry
+              Solves Gerrymandering A.I. Is Fueling a ‘Poverty of Imagination.’
+              Here’s How We Can Fix It.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Opinion Columnists</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/12/multimedia/12dc-memo-top-jmwt/12dc-memo-top-jmwt-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              A Right-Wing Influencer Tried to Be a Tradwife. It Almost Broke
+              Her. How Liberalism Went to Die on the Texas-Arkansas Border
+              Sydney Sweeney Has a Secret
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Editorials</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/12/the-athletic/tamc-081225-stalking-sports-mainbar-1754981690440/tamc-081225-stalking-sports-mainbar-1754981690440-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Trump Is Letting TikTok (and China) Win America Will Suffer From
+              Trump’s Assault on Facts Gaza’s Hunger Is a Moral Crisis
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Guest Essays</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/01/business/00uber/00uber-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Geometry Solves Gerrymandering How Liberalism Went to Die on the
+              Texas-Arkansas Border Trump Is Squandering the Greatest Gift of
+              the Manhattan Project
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Sunday Opinion</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Attention, Men: Books Are Sexy! The Future of Liberal Arts
+              Education Conspiracies Are Real. The Theories Can Be Traps.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="section9">
+        <div>
+          <h3>Arts</h3>
+        </div>
+        <div>
+          <h4>Arts</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2021/08/17/t-magazine/17tmag-colinking-slide-EAF6-copy/17tmag-colinking-slide-EAF6-superJumbo.jpg?quality=75&auto=webp"
+              alt=""
+            />
+            <figcaption>
+              Cecilia Bartoli Knows What Makes Good Opera and Ragù: Time On
+              Location, Everyone Can See You Sweat ‘Road House’ Still Reigns as
+              the Best Bad Movie
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Art and Design</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/12/multimedia/12dc-memo-top-jmwt/12dc-memo-top-jmwt-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Tristan Duke Sees Things We Don’t Tristan Duke in his lab on North
+              Alvarado Street in Los Angeles. This Couple Is United in Art and
+              Life. But Can He Save His Wife’s Legacy? The Smithsonian Changes
+              Its Description of Trump’s Role on Jan. 6
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Movies</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/12/the-athletic/tamc-081225-stalking-sports-mainbar-1754981690440/tamc-081225-stalking-sports-mainbar-1754981690440-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Chad Michael Murray Is Trying to Make Good Choices “I know this
+              sounds bizarre,” Murray said. “But I don’t feel like I’ve
+              accomplished anything yet. I genuinely feel like I’m just getting
+              started.” ‘Freakier Friday’ Review: Round and Round, Here We Go
+              Again Have You Seen ‘Weapons’? We Talk About What It Might Mean
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Television</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/01/business/00uber/00uber-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              ‘Outlander’: Matthew B. Roberts Loves a Love Story The “Outlander”
+              showrunner Matthew B. Roberts doesn’t describe his show as a
+              romance. “My definition is: Romances end, love stories continue,”
+              he said. ‘And Just Like That …’ Season 3, Episode 11: Romantic
+              Tragedy The Creators of ‘Platonic’ Are Married. That’s Funny.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Music</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Taylor Swift Announces New Album, ‘The Life of a Showgirl’ After a
+              Young Arts Patron’s Donation Did Not Clear, He Was Found Dead Want
+              to See Opera in the Home of Baseball? Get a Room.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Theater</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              For Lupita and Junior Nyong’o, ‘Twelfth Night’ Is Child’s Play,
+              Revisited “Now I get to watch Junior, for the first time, meet and
+              match his sister in such a beautiful way,” said the director
+              Saheem Ali, who has known the Nyong’o family for decades. Blown
+              Away by Bubble Art In This Financial Crisis, Brian Cox Is
+              Hauntingly Good
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Dance</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              4 Rising Dancers Reflect on the Cracked Mirror ‘Black Swan’ Held
+              to Ballet Natalie Portman in “Black Swan.” Tiler Peck Knows Jerome
+              Robbins, and Knows What She Wants The Timeless Torches Are Dance
+              Warriors. We Need Them.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Book Review</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              A Reporter Revisits 1980s New York in All Its Tabloid Excess
+              Craving More of ‘The Gilded Age’? Read These Books Next.
+              Dispatches From Afghanistan Show How the U.S. Lost Its Way — and
+              the War
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="section10">
+        <div>
+          <h3>lIVING</h3>
+        </div>
+        <div>
+          <h4>Style</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2021/08/17/t-magazine/17tmag-colinking-slide-EAF6-copy/17tmag-colinking-slide-EAF6-superJumbo.jpg?quality=75&auto=webp"
+              alt=""
+            />
+            <figcaption>
+              Kate Hudson. Natalie Portman. Bowen Yang. Who Will Play Sally
+              Next? The Theater Is Tiny, the Popcorn Is Fresh and the Crowd Is
+              Devoted Michelle Obama and Justice Ketanji Brown Jackson Draw
+              Crowds on Martha’s Vineyard
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Food</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/12/multimedia/12dc-memo-top-jmwt/12dc-memo-top-jmwt-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              The 25 Best Restaurants in Boston Right Now Tonino in Jamaica
+              Plain. ‘Is It Happening?’: Trump’s Tariffs Bring Uncertainty to
+              Beaujolais 7 Secrets for a Great Pasta Salad
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Well</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/12/the-athletic/tamc-081225-stalking-sports-mainbar-1754981690440/tamc-081225-stalking-sports-mainbar-1754981690440-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              6 Running Myths That Could Be Slowing You Down How Healthy Is
+              Zucchini? After a Grisly Trial, Jurors Are Left With Mental Scars
+              and Few Resources
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>The New York Times Magazine</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/01/business/00uber/00uber-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              I Never Understood Our Data-Saturated Life Until a Hurricane Shut
+              It Down The Head of the A.D.L. on Antisemitism, Anti-Zionism and
+              Free Speech It Was a Promising Addiction Treatment. Many Patients
+              Never Got It.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>T Magazine</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              What Does It Mean to Be a ‘Very American’ Artist Now? The artist
+              Robert Longo, photographed in his Manhattan studio on April 2,
+              2025. Behind him is an ink-and-charcoal drawing of a pit of
+              snakes. Is It Cake or Is It Salad? Our Favorite Bedrooms
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Travel</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              Five European Castles That Court Travelers With Kids The garden of
+              Alnwick castle in Britain is home to Lilidorei, a 26-meter-high
+              maze that features towers, slides and swings for children. Seth
+              Rogen’s 5 Favorite Places in L.A. 36 Hours on Kefalonia
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Love</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              They Were Joined in Matrimony. Then They (Sometimes) Joined the
+              Club. Sam and Jasmine Flaxman had their wedding last December at
+              the Savile Club in London, a private club for men who work in the
+              arts. They may never go inside again. How Much Did You Spend on
+              Your Wedding? We’d Love to Hear. She Made a List. The Ancestors
+              Confirmed.
+            </figcaption>
+          </figure>
+        </div>
+        <div>
+          <h4>Real Estate</h4>
+          <figure>
+            <img
+              src="https://static01.nyt.com/images/2025/08/07/podcasts/07cannonball-cowboy-carter/07cannonball-cowboy-carter-smallSquare252.png?format=pjpg&quality=75&auto=webp&disable=upscale"
+              alt=""
+            />
+            <figcaption>
+              She Saved Up for Her New York Dream and Found It in Coney Island
+              After leaving New York in May 2022, Fey Sandoval moved in with her
+              parents in Dallas so she could save money and regroup. The Law
+              Protects Them. The Villagers Fear Them. Can Street Vendors Set Up
+              Right Outside My Building?
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </main2>
+  </body>
+  <footer>
+    <h2>The New York Times</h2>
+    <div>
+      <div>
+        <div>
+          <ul>
+            <li><h5>NEWS</h5></li>
+            <li><a href="#">Home Page </a></li>
+            <li><a href="#">U.S. </a></li>
+            <li><a href="#">World </a></li>
+            <li><a href="#">Politics </a></li>
+            <li><a href="#">New York </a></li>
+            <li><a href="#">Education </a></li>
+            <li><a href="#">Sports </a></li>
+            <li><a href="#">Business </a></li>
+            <li><a href="#">Tech </a></li>
+            <li><a href="#">Science </a></li>
+            <li><a href="#">Weather </a></li>
+            <li><a href="#">The Great Read </a></li>
+            <li><a href="#">Obituaries </a></li>
+            <li><a href="#">Headway </a></li>
+            <li><a href="#">Visual Investigations </a></li>
+            <li><a href="#">The Magazine </a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><h5>Arts</h5></li>
+            <li><a href="#">Book Review </a></li>
+            <li><a href="#">Best Sellers Book List </a></li>
+            <li><a href="#">Dance </a></li>
+            <li><a href="#">Movies </a></li>
+            <li><a href="#">Music </a></li>
+            <li><a href="#">Pop Culture </a></li>
+            <li><a href="#">Television </a></li>
+            <li><a href="#">Theater </a></li>
+            <li><a href="#">Visual Arts </a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><h5>Lifestyle</h5></li>
+            <li><a href="#">Health </a></li>
+            <li><a href="#">Well </a></li>
+            <li><a href="#">Food </a></li>
+            <li><a href="#">Restaurant Reviews </a></li>
+            <li><a href="#">Love </a></li>
+            <li><a href="#">Travel </a></li>
+            <li><a href="#">Style </a></li>
+            <li><a href="#">Fashion </a></li>
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">T Magazine </a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><h5>Opinion</h5></li>
+            <li><a href="#">Today's Opinion </a></li>
+            <li><a href="#">Columnists </a></li>
+            <li><a href="#">Editorials </a></li>
+            <li><a href="#">Guest Essays </a></li>
+            <li><a href="#">Op-Docs </a></li>
+            <li><a href="#">Letters </a></li>
+            <li><a href="#">Sunday Opinion </a></li>
+            <li><a href="#">Opinion Video </a></li>
+            <li><a href="#">Opinion Audio </a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><h5>MORE</h5></li>
+            <li><a href="#">Audio </a></li>
+            <li><a href="#">Games </a></li>
+            <li><a href="#">Cooking </a></li>
+            <li><a href="#">Wiercutter </a></li>
+            <li><a href="#">The Athletic </a></li>
+            <li><a href="#">Jobs </a></li>
+            <li><a href="#">Video </a></li>
+            <li><a href="#">Graphics </a></li>
+            <li><a href="#">Trending </a></li>
+            <li><a href="#">Live Events </a></li>
+            <li><a href="#">Corrections </a></li>
+            <li><a href="#">Reader Center </a></li>
+            <li><a href="#">TimesMachine </a></li>
+            <li><a href="#">The Learning Network </a></li>
+            <li><a href="#">School of The NYT </a></li>
+            <li><a href="#">inEducation </a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <h5>Account</h5>
+            <ul>
+              <li>Subscribe</li>
+              <li>Manage My Account</li>
+              <li>Home Delivery</li>
+              <li>Gift Subscription</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Group Subscriptions</li>
+              <li>Gift Articles</li>
+              <li>Email Newsletters</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <ul>
+            <li>NYT Licensing</li>
+            <li>Replica Edition</li>
+            <li>Times Store</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <ul>
+        <li>© 2025 The New York Times Company</li>
+        <li>NYTCo</li>
+        <li>Contact Us</li>
+        <li>Accssesibility</li>
+        <li>Work with us</li>
+        <li>Advertise</li>
+        <li>T brand studio</li>
+        <li>Your Ad Choices</li>
+        <li>Privacy Policy</li>
+        <li>Terms of Sale</li>
+        <li>Site Map</li>
+        <li>Help</li>
+        <li>Subscription</li>
+      </ul>
+    </div>
+  </footer>
 </html>
