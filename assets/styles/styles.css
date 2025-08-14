@@ -50,6 +50,14 @@ footer h2 {
   height: 48px;
 }
 
+footer ul li a {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
 footer div div div ul li a {
   display: none;
 }
@@ -98,14 +106,6 @@ footer ul li h5 {
   letter-spacing: 0.5px;
   margin-bottom: 12px;
   color: #121212;
-}
-
-footer ul li a {
-  font-family: "Open Sans", arial, sans-serif;
-  font-size: 12px;
-  color: #666;
-  text-decoration: none;
-  line-height: 1.4;
 }
 
 .time-day {
