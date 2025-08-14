@@ -13,9 +13,23 @@ body {
   background-color: #fff;
 }
 
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 header {
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
+}
+
+footer h2 {
+  font-family: "Old English Text MT", serif;
+  font-size: 20px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: normal;
 }
 
 .header-head,
@@ -68,6 +82,30 @@ h1 {
   text-align: center;
   margin: 0;
   letter-spacing: 0.5px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+footer ul li h5 {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+  color: #121212;
+}
+
+footer ul li a {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+  line-height: 1.4;
 }
 
 .time-day {
@@ -123,6 +161,11 @@ main {
   margin-bottom: 8px;
 }
 
+div .quote {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
 .lead-story div .quote {
   font-family: "Open Sans", arial, sans-serif;
   font-size: 12px;
@@ -137,18 +180,6 @@ img {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 1.3rem;
 }
 
 figure img {
@@ -179,11 +210,6 @@ figure {
   border-bottom: 2px solid #b3afaf;
 }
 
-div .quote {
-  text-transform: uppercase;
-  font-size: 0.9rem;
-}
-
 .adv {
   background-color: #ececec;
   border-bottom: 2px solid #b3afaf;
@@ -201,7 +227,7 @@ div .quote {
 .container {
   display: flex;
   gap: 20px;
-  padding: 10px 0 20px 0;
+  padding: 10px 0 20px;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   margin: 40px 0;
@@ -282,15 +308,30 @@ div .quote {
   margin-top: 1pc solid black;
 }
 
-.pflex img {
-  height: 200px;
-}
-
--story figure img {
+/* .story figure img {
   width: 100%;
   height: 200px;
   object-fit: cover;
   display: block;
+} */
+
+.pflex img {
+  height: 200px;
+}
+
+.article-item img {
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.opinion-article img,
+.arts-article img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 12px;
 }
 
 .imgflex div figure img {
@@ -314,13 +355,6 @@ div .quote {
 .section10 {
   margin: 1rem;
   margin-top: 1px solid black;
-}
-
-.article-item img {
-  width: 100px;
-  height: 75px;
-  object-fit: cover;
-  flex-shrink: 0;
 }
 
 .lead-story figure {
@@ -493,14 +527,6 @@ video {
   margin-bottom: 8px;
 }
 
-.opinion-article img,
-.arts-article img {
-  width: 100%;
-  height: 120px;
-  object-fit: cover;
-  margin-bottom: 12px;
-}
-
 /* Popular list */
 .popular-list {
   display: flex;
@@ -538,14 +564,6 @@ footer {
   margin-top: 40px;
 }
 
-footer h2 {
-  font-family: "Old English Text MT", serif;
-  font-size: 20px;
-  margin-bottom: 24px;
-  text-align: center;
-  font-weight: normal;
-}
-
 footer > div:first-of-type {
   display: grid;
   grid-template-columns: 1fr;
@@ -561,24 +579,6 @@ footer ul {
 
 footer ul li {
   margin-bottom: 8px;
-}
-
-footer ul li h5 {
-  font-family: "Open Sans", arial, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 12px;
-  color: #121212;
-}
-
-footer ul li a {
-  font-family: "Open Sans", arial, sans-serif;
-  font-size: 12px;
-  color: #666;
-  text-decoration: none;
-  line-height: 1.4;
 }
 
 footer ul li a:hover {
