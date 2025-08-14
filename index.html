@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap"
+      rel="stylesheet"
+    />
     <title>New York Times</title>
     <style>
       /* Optional: Hide sprite from layout but keep it accessible */
@@ -65,7 +72,7 @@
         <div>
           <h1>The New York Times</h1>
         </div>
-        <div>
+        <div class="trade">
           <div>Dow</div>
           <div>
             -0.04%
@@ -150,13 +157,48 @@
           </ul>
         </div>
       </div>
+      <div class="mobile-header">
+        <div class="mobile-head">
+          <div class="menu-icon">
+            <svg
+              height="20"
+              width="20"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <div>
+            <h1>The New York Times</h1>
+          </div>
+          <div class="account-icon">
+            <svg
+              height="20"
+              width="20"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 7a4 4 0 1 1 8 0a4 4 0 0 1-8 0Zm0 6a5 5 0 0 0-5 5a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3a5 5 0 0 0-5-5H8Z"
+                fill="currentColor"
+                fillRule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="time-day"><h5>Monday, August 11, 2025</h5></div>
+      </div>
     </header>
     <main>
       <div class="left-main">
-        <section>
+        <section1>
           <div>
             <div>
-              <div>
+              <div class="gap">
                 <h2>
                   In Unusual Move, U.S. Government to Take Cut of Companies’
                   Chips Sold to China
@@ -168,35 +210,40 @@
                 </p>
                 <quote>5 MIN READ</quote>
               </div>
-              <div>
-                <div><h6>DealBook</h6></div>
-                <div><h2>Is the Chip Deal a Tax, or a Payoff?</h2></div>
-              </div>
-              <quote> 7 min read </quote>
             </div>
             <div>
-              <img
-                src="https://static01.nyt.com/images/2025/08/10/multimedia/10biz-nvidia-ltbf/10biz-nvidia-ltbf-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
-                alt="picture of a man"
-              />
+              <figure>
+                <img
+                  src="https://static01.nyt.com/images/2025/08/10/multimedia/10biz-nvidia-ltbf/10biz-nvidia-ltbf-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                />
+                <figcaption>kenny Holston/ The New York Times</figcaption>
+              </figure>
             </div>
           </div>
           <div>
-            <div>
-              <h2>
+            <div class="dsk-display">
+              <div><h6>DEALBOOK</h6></div>
+              <div><h3>Is the Chip Deal a Tax, or a Payoff?</h3></div>
+              <quote> 7 min read </quote>
+            </div>
+            <div class="dsk-display">
+              <h3>
                 China’s Automakers Are Taking a Shortcut to European Markets
-              </h2>
+              </h3>
               <quote>4 min read </quote>
             </div>
-            <div>
-              <h2>
+            <div class="dsk-display">
+              <h3>
                 Small Businesses Brace for the Punishing Side Effects of Trump’s
                 Tariffs
-              </h2>
+              </h3>
               <quote>4 min read </quote>
             </div>
           </div>
-        </section>
+        </section1>
+        <div class="adv">
+          <p>ADVERTISMENT</p>
+        </div>
         <continer>
           <div>
             <img
@@ -204,36 +251,38 @@
               alt=""
             />
           </div>
-          <div>
-            <div>
-              <h6>THE HEADLINES</h6>
+          <div class="img-txt">
+            <div class="headlines">
+              <h5>THE HEADLINES</h5>
               <quote>AUDIIO</quote>
             </div>
             <div>
-              <h2>
+              <h4>
                 Trump Prepares To Meet Putin,Al Jazzera Says Israel Killed Its
                 Journalist In Gaza, An More
-              </h2>
-              <svg
-                height="20"
-                width="20"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.396 18.433L17 12l-6.604-6.433A2 2 0 0 0 7 7v10a2 2 0 0 0 3.396 1.433z"
-                  fill="currentColor"
-                />
-              </svg>
-              <quote> 9 MIN LISTERN</quote>
+              </h4>
+              <div class="icn">
+                <svg
+                  height="17"
+                  width="17"
+                  viewBox="0 0 64 64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="32" cy="32" fill="#4fd1d9" r="30" />
+                  <path d="m25 12l20 20l-20 20z" fill="#fff" />
+                </svg>
+                <quote> 9 MIN LISTERN</quote>
+              </div>
             </div>
           </div>
         </continer>
         <section class="section2">
           <div class="section2-head">
             <ul>
-              <li>Trump Administration</li>
-              <li><a href=""> Florida’s ‘Alligator Alcatraz’</a></li>
+              <div>
+                <h4>Trump Administration</h4>
+                <a href=""> Florida’s ‘Alligator Alcatraz’</a>
+              </div>
               <li>Separating Families</li>
               <li>Major Shift at E.P.A.</li>
               <li>Approval Ratings</li>
@@ -243,10 +292,10 @@
             <div>
               <div>
                 <div>
-                  <span> LIVE </span>
-                  <span2> Aug. 11 </span2>
+                  <span class="live ti"> LIVE </span>
+                  <span class="live"> 22m ago </span>
                 </div>
-                <div>
+                <div class="trump-to">
                   <h2>Trump to Deploy National Guard in Washington, D.C.</h2>
                   <p>
                     The U.S. military is preparing to activate National Guard
@@ -256,8 +305,8 @@
                   <quote>
                     See more updates
                     <svg
-                      height="20"
-                      width="20"
+                      height="10"
+                      width="10"
                       viewBox="0 0 208 456"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -268,31 +317,14 @@
                     </svg>
                   </quote>
                 </div>
-                <div>
+                <div class="dsk-display">
                   <h2>
                     Trump Administration to Put F.B.I. Agents on Night Patrol in
                     Washington
                   </h2>
                   <quote>2 MIN READ</quote>
                 </div>
-                <div>
-                  Trump Administration to Put F.B.I. Agents on Night Patrol in
-                  Washington
-                  <h2>
-                    The Harvard-Trained Lawyer Behind Trump’s Fight Against Top
-                    Universities
-                  </h2>
-                  <quote>7 MIN READ</quote>
-                </div>
-              </div>
-              <div>
-                <div>
-                  <img
-                    src="https://static01.nyt.com/images/2025/08/11/multimedia/11dc-mahafarm-FADER-klmb/11dc-mahafarm-FADER-klmb-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
-                    alt="farm work"
-                  />
-                </div>
-                <div>
+                <div class="dsk-display">
                   <h2>
                     This Ohio Farm Community Is a Mecca for the ‘MAHA Mom’
                   </h2>
@@ -304,13 +336,30 @@
                   <quote> 12 min read </quote>
                 </div>
               </div>
+              <div>
+                <div>
+                  <figure>
+                    <img
+                      src="https://static01.nyt.com/images/2025/08/11/multimedia/11dc-mahafarm-FADER-klmb/11dc-mahafarm-FADER-klmb-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+                    />
+                    <figcaption></figcaption>
+                  </figure>
+                </div>
+                <div class="dsk-display">
+                  <h2>
+                    The Harvard-Trained Lawyer Behind Trump’s Fight Against Top
+                    Universities
+                  </h2>
+                  <quote>7 MIN READ</quote>
+                </div>
+              </div>
             </div>
             <div class="section2-footer">
-              <div>
+              <div class="dsk-display">
                 <h2>Kennedy’s Next Target: the Federal Vaccine Court</h2>
                 <quote>6 min read</quote>
               </div>
-              <div>
+              <div class="dsk-display">
                 <h2>
                   Undocumented Immigrants Fear Seeking Aid After Texas Floods
                 </h2>
@@ -321,7 +370,7 @@
         </section>
         <section class="section3">
           <div>
-            <div>
+            <div class="ana">
               <h5>ANALYSIS</h5>
               <h2>
                 A Sidelined Zelensky Warns That Russia Will Try to Deceive the
@@ -334,35 +383,40 @@
               </p>
               <quote>4 MIN READ</quote>
             </div>
-            <div>
-              <h2>
-                Vance Says U.S. Is Working for a Meeting With Trump, Putin and
-                Zelensky
-              </h2>
-              <quote> 3 min read</quote>
-            </div>
           </div>
           <div>
-            <img
-              src="https://static01.nyt.com/images/2025/08/11/multimedia/11int-ukraine-diplo-01-pwbl/11int-ukraine-diplo-01-pwbl-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
-              alt=""
-            />
-            <quote>Odd Anderson/Agence France-Presse-Getty Images</quote>
+            <figure>
+              <img
+                src="https://static01.nyt.com/images/2025/08/11/multimedia/11int-ukraine-diplo-01-pwbl/11int-ukraine-diplo-01-pwbl-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
+              />
+              <figcaption>
+                Odd Anderson/Agence France-Presse-Getty Images
+              </figcaption>
+            </figure>
+          </div>
+          <div class="dsk-display">
+            <h2>
+              Vance Says U.S. Is Working for a Meeting With Trump, Putin and
+              Zelensky
+            </h2>
+            <quote> 3 min read</quote>
           </div>
         </section>
         <section class="section4">
           <div class="section2-head">
             <ul>
-              <li>Middle East Crisis</li>
-              <li><a href="">Food Crisis</a></li>
-              <li>Sendind Aid To Gaza</li>
+              <div>
+                <div>Middle East Crisis</div>
+                <div>Food Crisis</div>
+                <div>Sendind Aid To Gaza</div>
+              </div>
               <li>A Weakened Hezbollah</li>
               <li>New Hostage Videos</li>
             </ul>
           </div>
           <div>
             <div>
-              <div>
+              <div class="ana">
                 <h5>ANALYSIS</h5>
                 <h2>
                   Days After Pledging a New Attack in Gaza, Israel’s Plan Is
@@ -375,7 +429,7 @@
                 </p>
                 <quote>2 MIN READ</quote>
               </div>
-              <div>
+              <div class="dsk-display">
                 <h2>
                   Israeli Strike Kills 4 Al Jazeera Journalists, Network Says
                 </h2>
@@ -386,7 +440,16 @@
                 </p>
                 <quote> 4 min read</quote>
               </div>
-              <div>
+              <div class="play">
+                <video width="400" height="400" controls>
+                  <source src="https://nyti.ms/3Ja2OtC" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <figcaption>Shawn Paik</figcaption>
+              </div>
+            </div>
+            <div class="video-container" id="video-1">
+              <div class="dsk-display">
                 <h2>
                   Australia Joins Growing Effort to Recognize Palestinian
                   Statehood
@@ -394,23 +457,22 @@
                 <quote> 2 min read</quote>
               </div>
             </div>
-            <div class="video-container" id="video-1">
-              <video width="200" height="200" controls>
-                <source src="https://nyti.ms/3Ja2OtC" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-              <quote>Shawn Paik</quote>
-            </div>
           </div>
         </section>
         <container>
-          <h2>
-            Got a Tip? The Times offers several ways to send important
-            information confidentially ›
-          </h2>
+          <div class="gottip">
+            <h3>
+              Got a Tip?
+              <span class="off"
+                >The Times offers several ways to send important information
+                confidentially</span
+              >
+              ›
+            </h3>
+          </div>
         </container>
         <section class="section5">
-          <div>
+          <div class="tr">
             <h1>
               For Lupita and Junior Nyong’o, ‘Twelfth Night’ Is Child’s Play,
               Revisited
@@ -433,7 +495,7 @@
           </div>
         </section>
         <section class="section5">
-          <div>
+          <div class="dsk-display">
             <h2>
               Clashing Visions of Syria’s Future Play Out in Ancient Alleys of
               Damascus
@@ -457,9 +519,9 @@
                 </figure>
               </div>
               <div>
-                <div>
+                <div class="imgflex">
                   <div>
-                    <figure>
+                    <figure class="pflex">
                       <img
                         src="https://static01.nyt.com/images/2025/07/20/multimedia/20syria-conservatism-06-qtkz-promo/20syria-conservatism-06-qtkz-promo-square640-v2.jpg?quality=75&auto=webp"
                         alt=""
@@ -468,7 +530,7 @@
                     </figure>
                   </div>
                   <div>
-                    <figure>
+                    <figure class="pflex">
                       <img
                         src="https://static01.nyt.com/images/2025/07/20/multimedia/20syria-conservatism-08-qtkz-promo/20syria-conservatism-08-qtkz-promo-square640-v2.jpg?quality=75&auto=webp"
                         alt=""
@@ -486,8 +548,10 @@
         <section class="section6">
           <div class="section2-head">
             <ul>
-              <li>Artificial Intelligence</li>
-              <li><a href="">Microsoft and A.I. Education</a></li>
+              <div>
+                <div>Artificial Intelligence</div>
+                <div>Microsoft and A.I. Education</div>
+              </div>
               <li>Job Interviews</li>
               <li>China’s Frenzy</li>
               <li>Tech Giant Spending Spree</li>
@@ -495,17 +559,17 @@
           </div>
           <div>
             <div>
-              <div>
+              <div class="tr tw">
                 <h2>21 Ways People Are Using A.I. at Work</h2>
                 <p>
                   Yes, it still makes plenty of mistakes, but it has become part
                   of the job for many.
                 </p>
               </div>
-              <div>
+              <div class="dsk-display">
                 <h2>
                   Why A.I. Should Make Parents Rethink Posting Photos of Their
-                  Children Online 7 min read
+                  Children Online
                 </h2>
                 <quote>7 MIN READ</quote>
               </div>
@@ -523,7 +587,7 @@
         </section>
         <section class="section7">
           <div>
-            <div>
+            <div class="tr">
               <h2>Blown Away by Bubble Art</h2>
               <p>
                 Performers are delighting crowds at the Edinburgh Festival
@@ -531,13 +595,6 @@
                 occasional acrobatics.
               </p>
               <quote>4 MIN READ</quote>
-            </div>
-            <div>
-              <h2>
-                Wildfire at Edinburgh Landmark, Arthur’s Seat, Brought Under
-                Control
-              </h2>
-              <quote>2 MIN READ</quote>
             </div>
           </div>
           <div>
@@ -551,7 +608,19 @@
                   <figcaption></figcaption>
                 </figure>
               </div>
-              <div>
+              <div class="imgflex">
+                <div class="video-container" id="video-2">
+                  <video
+                    width="200"
+                    height="200"
+                    controls
+                    poster="thumbnail.jpg"
+                  >
+                    <source src="https://nyti.ms/3Ja2OtC" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <quote></quote>
+                </div>
                 <div class="video-container" id="video-2">
                   <video
                     width="200"
@@ -565,11 +634,18 @@
                   <quote>Robert Ormerod for The New York Times</quote>
                 </div>
               </div>
+              <div class="dsk-display">
+                <h2>
+                  Wildfire at Edinburgh Landmark, Arthur’s Seat, Brought Under
+                  Control
+                </h2>
+                <quote>2 MIN READ</quote>
+              </div>
             </div>
           </div>
         </section>
         <section class="section8">
-          <div>
+          <div class="tr">
             <h2>
               I Never Understood Our Data-Saturated Life Until a Hurricane Shut
               It Down
@@ -600,13 +676,13 @@
           <div>
             <figure>
               <img
-                src="https://www.nytimes.com/interactive/2025/08/07/travel/things-to-do-kefalonia.html"
+                src="https://static01.nyt.com/images/2025/08/13/multimedia/13FD-emp-menu-promo1-fgpw/13FD-emp-menu-promo1-fgpw-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
                 alt=""
               />
               <figcaption>Gabby Riggieri</figcaption>
             </figure>
           </div>
-          <div>
+          <div class="tr">
             <h2>36 Hours on Kefalonia, Greece</h2>
             <p>
               Kayak to romantic coves and explore an aquamarine underground lake
@@ -617,7 +693,7 @@
         <section class="section2">
           <div>
             <div>
-              <figure>
+              <figure s>
                 <img
                   src="https://static01.nyt.com/images/2025/07/15/well/WELL-HEALTHY-ZUCCHINI1/WELL-HEALTHY-ZUCCHINI1-smallSquare252.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
                   alt=""
@@ -843,9 +919,9 @@
       <section class="section1">
         <div class="left-side">
           <div>
-            <div>
+            <div class="mar">
               <h5>MORE NEWS</h5>
-              <div>
+              <div class="dsk-display">
                 <h2>
                   Miguel Uribe, Colombian Senator Shot at Campaign Event, Dies
                   at 39
@@ -869,7 +945,7 @@
                 <quote>5 min read </quote>
               </div>
             </div>
-            <div>
+            <div class="ig">
               <figure>
                 <img
                   src="https://static01.nyt.com/images/2025/06/17/multimedia/00-int-colombia-politician-dead-wlkm/00-int-colombia-politician-dead-wlkm-threeByTwoSmallAt2X.jpg?format=pjpg&quality=75&auto=webp&disable=upscale"
@@ -882,7 +958,7 @@
             </div>
           </div>
           <div>
-            <div>
+            <div class="dsk-display">
               <h2>
                 Western Turkey Is Hit by Earthquake but Avoids Major Damage
               </h2>
@@ -892,7 +968,7 @@
               </p>
               <quote>1 min read </quote>
             </div>
-            <div>
+            <div class="dsk-display">
               <h2>
                 AOL Will End Its Dial-Up Internet Service (Yes, It’s Still
                 Operating)
@@ -906,25 +982,25 @@
           </div>
         </div>
         <div class="right-side">
-          <div>
+          <div class="dsk-display">
             <h1>
               His Party Reeling, a Democratic Senator Tries a Message of Hope in
               Iowa
             </h1>
             <quote>6 MIN READ</quote>
           </div>
-          <div>
+          <div class="dsk-display">
             <h1>What We Know About the C.D.C. Shooting in Atlanta</h1>
             <quote>4 MIN READ</quote>
           </div>
-          <div>
+          <div class="dsk-display">
             <h1>
               Hezly Rivera Wins Women’s All-Around at the U.S. Gymnastics
               Championships
             </h1>
             <quote>From The Athletic</quote>
           </div>
-          <div>
+          <div class="dsk-display">
             <h1>New York City to Close Last Major Hotel Housing Migrants</h1>
             <quote>4 MIN READ</quote>
           </div>
@@ -934,7 +1010,7 @@
             </h1>
             <quote>3 MIN READ</quote>
           </div>
-          <div>
+          <div class="dsk-display">
             <h1>
               Mamdani Tries to Build Bridges to Black Voters Who Snubbed Him in
               June
@@ -947,14 +1023,14 @@
         <div>
           <div>
             <h1>The Athletic <yo>sports coverage</yo></h1>
-            <div>
+            <div class="dsk-display">
               <h1>N.F.L. Insiders Rank the 34 Best Veteran Quarterbacks</h1>
               <p>
                 Coaches and executives added two more players into the top tier
                 of signal callers.
               </p>
             </div>
-            <div>
+            <div class="dsk-display">
               <h1>
                 Jen Pawol Became the First Female Umpire in M.L.B. The League
                 Needed It.
@@ -965,7 +1041,7 @@
                 columnist for The Athletic writes.
               </p>
             </div>
-            <div>
+            <div class="dsk-display">
               <h1>
                 Which M.L.B. Contenders Have the Toughest Road to the Playoffs?
               </h1>
@@ -983,25 +1059,25 @@
           </div>
         </div>
         <div>
-          <div>
+          <div class="dsk-display">
             <h2>
               Kansas City Was Once at Rock Bottom. One Blueprint Changed
               Everything.
             </h2>
           </div>
-          <div>
+          <div class="dsk-display">
             <h2>
               Texas Tech Was a ‘Bad’ Softball Program. One Coach Turned It Into
               a Powerhouse.
             </h2>
           </div>
-          <div>
+          <div class="dsk-display">
             <h2>
               The Stiffest Competition in the W.N.B.A.? Half-Court Shot Contests
             </h2>
           </div>
-          <div>
-            <h2>Play Connections: Sports Edition</h2>
+          <div class="imgflex">
+            <h3>Play Connections: Sports Edition</h3>
             <div>
               <figure>
                 <img
@@ -1016,7 +1092,7 @@
       </section>
       <section class="section3">
         <h5>Well</h5>
-        <div>
+        <div class="wellflex">
           <div>
             <div>
               <figure>
@@ -1028,10 +1104,10 @@
                   Illustration by Nicolás Ortega; Photograph by Getty Images
                 </figcaption>
               </figure>
-            </div>
-            <div>
-              <h2>Slow Down if You See These Dating ‘Yellow Flags’</h2>
-              <quote>4 min read </quote>
+              <div>
+                <h2>Slow Down if You See These Dating ‘Yellow Flags’</h2>
+                <quote>4 min read </quote>
+              </div>
             </div>
           </div>
           <div>
@@ -1091,7 +1167,7 @@
                 <figcaption>Illustration by Sarah Mafféïs</figcaption>
               </figure>
             </div>
-            <div>
+            <div class="dsk-display">
               <h2>Foods That Fight Inflammation</h2>
               <quote>4 min read </quote>
             </div>
@@ -1101,7 +1177,7 @@
       <section class="section4">
         <h4>culture and lifestyle</h4>
         <div>
-          <div>
+          <div class="wellflex">
             <div>
               <div>
                 <h2>T Magazine’s Favorite Bedrooms</h2>
@@ -1151,7 +1227,7 @@
               </div>
             </div>
           </div>
-          <div>
+          <div class="moviereview">
             <div>
               <div>
                 <h5>Movie Review</h5>
@@ -1343,7 +1419,7 @@
         </div>
         <div>
           <div>
-            <div>
+            <div class="imgflex">
               <div>
                 <h3>Wordle</h3>
                 <p>Guess the 5-letter word with 6 chances.</p>
@@ -1359,7 +1435,7 @@
               </div>
             </div>
             <div>
-              <div>
+              <div class="imgflex">
                 <div>
                   <h3>Connections</h3>
                   <p>Group words that share a common thread.</p>
@@ -1377,7 +1453,7 @@
             </div>
             <div>
               <div>
-                <div>
+                <div class="imgflex">
                   <div>
                     <h3>Strands</h3>
                     <p>Uncover hidden words and reveal the theme.</p>
@@ -1397,7 +1473,7 @@
           </div>
           <div>
             <div>
-              <div>
+              <div class="imgflex">
                 <div>
                   <h3>Spelling Bee</h3>
                   <p>How many words can you make with 7 letters?</p>
@@ -1413,7 +1489,7 @@
                 </div>
               </div>
               <div>
-                <div>
+                <div class="imgflex">
                   <div>
                     <h3>The Crossword</h3>
                     <p>Get clued in with wordplay, every day.</p>
@@ -1431,7 +1507,7 @@
               </div>
               <div>
                 <div>
-                  <div>
+                  <div class="imgflex">
                     <div>
                       <h3>Strands</h3>
                       <p>Solve this bite-sized puzzle in just a few minutes.</p>
@@ -2010,10 +2086,10 @@
     </main2>
   </body>
   <footer>
-    <h2>The New York Times</h2>
+    <h1>The New York Times</h1>
     <div>
       <div>
-        <div>
+        <div class="dsk-display">
           <ul>
             <li><h5>NEWS</h5></li>
             <li><a href="#">Home Page </a></li>
@@ -2034,7 +2110,7 @@
             <li><a href="#">The Magazine </a></li>
           </ul>
         </div>
-        <div>
+        <div class="dsk-display">
           <ul>
             <li><h5>Arts</h5></li>
             <li><a href="#">Book Review </a></li>
@@ -2048,7 +2124,7 @@
             <li><a href="#">Visual Arts </a></li>
           </ul>
         </div>
-        <div>
+        <div class="dsk-display">
           <ul>
             <li><h5>Lifestyle</h5></li>
             <li><a href="#">Health </a></li>
@@ -2063,7 +2139,7 @@
             <li><a href="#">T Magazine </a></li>
           </ul>
         </div>
-        <div>
+        <div class="dsk-display">
           <ul>
             <li><h5>Opinion</h5></li>
             <li><a href="#">Today's Opinion </a></li>
@@ -2077,7 +2153,7 @@
             <li><a href="#">Opinion Audio </a></li>
           </ul>
         </div>
-        <div>
+        <div class="dsk-display">
           <ul>
             <li><h5>MORE</h5></li>
             <li><a href="#">Audio </a></li>
@@ -2099,7 +2175,7 @@
           </ul>
         </div>
       </div>
-      <div>
+      <div class="footermid">
         <div>
           <div>
             <h5>Account</h5>
